@@ -253,14 +253,14 @@ ALaw_Controller::~ALaw_Controller() {}
 // End Class ALaw_Controller
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_PivGravcya_Documents_Unreal_Projects_OpeOpe_Source_OpeOpe_Public_Law_Controller_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_Law_Controller_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ALaw_Controller, ALaw_Controller::StaticClass, TEXT("ALaw_Controller"), &Z_Registration_Info_UClass_ALaw_Controller, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALaw_Controller), 3603297765U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_PivGravcya_Documents_Unreal_Projects_OpeOpe_Source_OpeOpe_Public_Law_Controller_h_2258642989(TEXT("/Script/OpeOpe"),
-	Z_CompiledInDeferFile_FID_Users_PivGravcya_Documents_Unreal_Projects_OpeOpe_Source_OpeOpe_Public_Law_Controller_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_PivGravcya_Documents_Unreal_Projects_OpeOpe_Source_OpeOpe_Public_Law_Controller_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_Law_Controller_h_2258642989(TEXT("/Script/OpeOpe"),
+	Z_CompiledInDeferFile_FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_Law_Controller_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_Law_Controller_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

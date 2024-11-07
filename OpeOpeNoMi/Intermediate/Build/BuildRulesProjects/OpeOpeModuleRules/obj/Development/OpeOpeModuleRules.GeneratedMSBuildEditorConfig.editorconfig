@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OpeOpeModuleRules
-build_property.ProjectDir = C:\Users\PivGravcya\Documents\Unreal Projects\OpeOpe\Intermediate\Build\BuildRulesProjects\OpeOpeModuleRules\
+build_property.ProjectDir = C:\Users\PivGravcya\OpeOpe\OpeOpeNoMi\Intermediate\Build\BuildRulesProjects\OpeOpeModuleRules\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

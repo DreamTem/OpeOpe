@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PivGravcya\\Documents\\Unreal Projects\\OpeOpe\\Intermediate\\Build\\BuildRulesProjects\\OpeOpeModuleRules\\OpeOpeModuleRules.csproj": {}
+    "C:\\Users\\PivGravcya\\OpeOpe\\OpeOpeNoMi\\Intermediate\\Build\\BuildRulesProjects\\OpeOpeModuleRules\\OpeOpeModuleRules.csproj": {}
   },
   "projects": {
     "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
@@ -1239,14 +1239,14 @@
         }
       }
     },
-    "C:\\Users\\PivGravcya\\Documents\\Unreal Projects\\OpeOpe\\Intermediate\\Build\\BuildRulesProjects\\OpeOpeModuleRules\\OpeOpeModuleRules.csproj": {
+    "C:\\Users\\PivGravcya\\OpeOpe\\OpeOpeNoMi\\Intermediate\\Build\\BuildRulesProjects\\OpeOpeModuleRules\\OpeOpeModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PivGravcya\\Documents\\Unreal Projects\\OpeOpe\\Intermediate\\Build\\BuildRulesProjects\\OpeOpeModuleRules\\OpeOpeModuleRules.csproj",
+        "projectUniqueName": "C:\\Users\\PivGravcya\\OpeOpe\\OpeOpeNoMi\\Intermediate\\Build\\BuildRulesProjects\\OpeOpeModuleRules\\OpeOpeModuleRules.csproj",
         "projectName": "OpeOpeModuleRules",
-        "projectPath": "C:\\Users\\PivGravcya\\Documents\\Unreal Projects\\OpeOpe\\Intermediate\\Build\\BuildRulesProjects\\OpeOpeModuleRules\\OpeOpeModuleRules.csproj",
+        "projectPath": "C:\\Users\\PivGravcya\\OpeOpe\\OpeOpeNoMi\\Intermediate\\Build\\BuildRulesProjects\\OpeOpeModuleRules\\OpeOpeModuleRules.csproj",
         "packagesPath": "C:\\Users\\PivGravcya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PivGravcya\\Documents\\Unreal Projects\\OpeOpe\\Intermediate\\Build\\BuildRulesProjects\\OpeOpeModuleRules\\obj\\",
+        "outputPath": "C:\\Users\\PivGravcya\\OpeOpe\\OpeOpeNoMi\\Intermediate\\Build\\BuildRulesProjects\\OpeOpeModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PivGravcya\\AppData\\Roaming\\NuGet\\NuGet.Config",

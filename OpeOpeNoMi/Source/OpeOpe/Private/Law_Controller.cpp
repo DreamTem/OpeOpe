@@ -144,6 +144,7 @@ void ALaw_Controller::ThrowActor(AActor* Act, FTimerHandle TimerHandler)
 	MeshActor->GetStaticMeshComponent()->AddImpulse(ImpulseVector * 100000);
 }
 
+// randomly rotating leviated object
 void ALaw_Controller::RotateActor(AActor* Act)
 {
 

@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OPEOPE_LawCharacter_generated_h
 
-#define FID_Users_PivGravcya_Documents_Unreal_Projects_OpeOpe_Source_OpeOpe_Public_LawCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_LawCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesALawCharacter(); \
 	friend struct Z_Construct_UClass_ALawCharacter_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(ALawCharacter)
 
 
-#define FID_Users_PivGravcya_Documents_Unreal_Projects_OpeOpe_Source_OpeOpe_Public_LawCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_LawCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ALawCharacter(ALawCharacter&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~ALawCharacter();
 
 
-#define FID_Users_PivGravcya_Documents_Unreal_Projects_OpeOpe_Source_OpeOpe_Public_LawCharacter_h_9_PROLOG
-#define FID_Users_PivGravcya_Documents_Unreal_Projects_OpeOpe_Source_OpeOpe_Public_LawCharacter_h_12_GENERATED_BODY \
+#define FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_LawCharacter_h_9_PROLOG
+#define FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_LawCharacter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_PivGravcya_Documents_Unreal_Projects_OpeOpe_Source_OpeOpe_Public_LawCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Users_PivGravcya_Documents_Unreal_Projects_OpeOpe_Source_OpeOpe_Public_LawCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_LawCharacter_h_12_INCLASS_NO_PURE_DECLS \
+	FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_LawCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +48,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> OPEOPE_API UClass* StaticClass<class ALawCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_PivGravcya_Documents_Unreal_Projects_OpeOpe_Source_OpeOpe_Public_LawCharacter_h
+#define CURRENT_FILE_ID FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_LawCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
