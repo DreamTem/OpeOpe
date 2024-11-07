@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\OpeOpe.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\OpeOpe.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\OpeOpeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\OpeOpe">
+      <UniqueIdentifier>{623D6B98-F25E-3F0B-BF0F-08204E8F9C3C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\OpeOpe\OpeOpe.Build.cs">
+      <Filter>Source\OpeOpe</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\OpeOpe\OpeOpe.cpp">
+      <Filter>Source\OpeOpe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\OpeOpe\OpeOpe.h">
+      <Filter>Source\OpeOpe</Filter>
+    </ClInclude>
+    <Filter Include="Source\OpeOpe\Private">
+      <UniqueIdentifier>{E685EA69-0A2F-37F3-8E29-E78D1267DAC9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\OpeOpe\Private\LawCharacter.cpp">
+      <Filter>Source\OpeOpe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OpeOpe\Private\Law_Controller.cpp">
+      <Filter>Source\OpeOpe\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\OpeOpe\Public">
+      <UniqueIdentifier>{DE0AFF02-2476-3B4E-BA7C-4335ABBA674B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\OpeOpe\Public\LawCharacter.h">
+      <Filter>Source\OpeOpe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OpeOpe\Public\Law_Controller.h">
+      <Filter>Source\OpeOpe\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

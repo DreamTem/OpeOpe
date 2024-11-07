@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "OpeOpe",
+			"Path": "..\\Source\\OpeOpe.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "OpeOpeEditor",
+			"Path": "..\\Source\\OpeOpeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

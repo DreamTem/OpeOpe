@@ -1,0 +1,1 @@
+#include "C:/Users/PivGravcya/Documents/Unreal Projects/OpeOpe/Source/OpeOpe/Public/LawCharacter.h"

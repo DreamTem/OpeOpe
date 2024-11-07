@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-OpeOpe-0013.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\PivGravcya\Documents\Unreal Projects\OpeOpe\Intermediate\Build\Win64\x64\OpeOpeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"C:\Users\PivGravcya\Documents\Unreal Projects\OpeOpe\Intermediate\Build\Win64\x64\UnrealEditor\Development\OpeOpe\LawCharacter.gen.cpp.obj"
+"C:\Users\PivGravcya\Documents\Unreal Projects\OpeOpe\Intermediate\Build\Win64\x64\UnrealEditor\Development\OpeOpe\Law_Controller.gen.cpp.obj"
+"C:\Users\PivGravcya\Documents\Unreal Projects\OpeOpe\Intermediate\Build\Win64\x64\UnrealEditor\Development\OpeOpe\OpeOpe.init.gen.cpp.obj"
+"C:\Users\PivGravcya\Documents\Unreal Projects\OpeOpe\Intermediate\Build\Win64\x64\UnrealEditor\Development\OpeOpe\OpeOpe.cpp.obj"
+"C:\Users\PivGravcya\Documents\Unreal Projects\OpeOpe\Intermediate\Build\Win64\x64\UnrealEditor\Development\OpeOpe\LawCharacter.cpp.obj"
+"C:\Users\PivGravcya\Documents\Unreal Projects\OpeOpe\Intermediate\Build\Win64\x64\UnrealEditor\Development\OpeOpe\Law_Controller.cpp.obj"
+"C:\Users\PivGravcya\Documents\Unreal Projects\OpeOpe\Intermediate\Build\Win64\x64\UnrealEditor\Development\OpeOpe\Default.rc2.res"
+/OUT:"C:\Users\PivGravcya\Documents\Unreal Projects\OpeOpe\Intermediate\Build\Win64\x64\UnrealEditor\Development\OpeOpe\UnrealEditor-OpeOpe-0013.lib"
