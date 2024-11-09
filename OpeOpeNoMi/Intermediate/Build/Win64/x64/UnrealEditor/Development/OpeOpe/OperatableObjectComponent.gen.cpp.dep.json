@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\pivgravcya\\opeope\\opeopenomi\\intermediate\\build\\win64\\unrealeditor\\inc\\opeope\\uht\\operatableobjectcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\pivgravcya\\opeope\\opeopenomi\\intermediate\\build\\win64\\x64\\opeopeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\pivgravcya\\opeope\\opeopenomi\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\opeope\\definitions.opeope.h",
+            "c:\\users\\pivgravcya\\opeope\\opeopenomi\\source\\opeope\\public\\operatableobjectcomponent.h",
+            "c:\\users\\pivgravcya\\opeope\\opeopenomi\\intermediate\\build\\win64\\unrealeditor\\inc\\opeope\\uht\\operatableobjectcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

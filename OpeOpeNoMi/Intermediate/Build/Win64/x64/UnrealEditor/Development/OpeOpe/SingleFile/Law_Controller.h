@@ -1,1 +1,1 @@
-#include "C:/Users/PivGravcya/Documents/Unreal Projects/OpeOpe/Source/OpeOpe/Public/Law_Controller.h"
+#include "C:/Users/PivGravcya/OpeOpe/OpeOpeNoMi/Source/OpeOpe/Public/Law_Controller.h"

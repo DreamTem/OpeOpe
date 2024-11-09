@@ -1,0 +1,1 @@
+#include "C:/Users/PivGravcya/OpeOpe/OpeOpeNoMi/Source/OpeOpe/Public/SwappableObject.h"

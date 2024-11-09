@@ -19,10 +19,8 @@ class OPEOPE_API ALaw_Controller : public APlayerController
 	
 	public:
 		ALaw_Controller();
-		ALawCharacter* LawPawn;
 
-		UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		USoundBase* TeleportCue;
+		ALawCharacter* LawPawn;
 
 		UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USoundBase* ShamblesCue;
@@ -34,17 +32,12 @@ class OPEOPE_API ALaw_Controller : public APlayerController
 
 		void Teleport();
 
-		void InitiateShambles();
-		
-		UFUNCTION()
-		void PerformShambles(AActor* Act);
+		void SwapWithObject();
 
 		void Tact();
 
-		void BindThrow(AActor* Act, FTimerHandle TimerHandler);
+		void BindThrow(AActor* Act);
 
 		UFUNCTION()
-		void ThrowActor(AActor* Act, FTimerHandle TimerHandler);
-		UFUNCTION()
-		void RotateActor(AActor* Act);
+		void ThrowActor(AActor* Act);
 };

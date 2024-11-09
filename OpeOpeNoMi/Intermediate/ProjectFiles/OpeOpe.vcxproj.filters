@@ -51,6 +51,12 @@
     <ClCompile Include="..\..\Source\OpeOpe\Private\Law_Controller.cpp">
       <Filter>Source\OpeOpe\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\OpeOpe\Private\OperatableObjectComponent.cpp">
+      <Filter>Source\OpeOpe\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OpeOpe\Private\SwappableComponent.cpp">
+      <Filter>Source\OpeOpe\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\OpeOpe\Public">
       <UniqueIdentifier>{DE0AFF02-2476-3B4E-BA7C-4335ABBA674B}</UniqueIdentifier>
     </Filter>
@@ -58,6 +64,12 @@
       <Filter>Source\OpeOpe\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\OpeOpe\Public\Law_Controller.h">
+      <Filter>Source\OpeOpe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OpeOpe\Public\OperatableObjectComponent.h">
+      <Filter>Source\OpeOpe\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OpeOpe\Public\SwappableComponent.h">
       <Filter>Source\OpeOpe\Public</Filter>
     </ClInclude>
   </ItemGroup>

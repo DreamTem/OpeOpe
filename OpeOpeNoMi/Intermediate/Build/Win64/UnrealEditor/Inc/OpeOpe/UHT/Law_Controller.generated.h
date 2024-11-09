@@ -10,16 +10,13 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AActor;
-struct FTimerHandle;
 #ifdef OPEOPE_Law_Controller_generated_h
 #error "Law_Controller.generated.h already included, missing '#pragma once' in Law_Controller.h"
 #endif
 #define OPEOPE_Law_Controller_generated_h
 
 #define FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_Law_Controller_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execRotateActor); \
-	DECLARE_FUNCTION(execThrowActor); \
-	DECLARE_FUNCTION(execPerformShambles);
+	DECLARE_FUNCTION(execThrowActor);
 
 
 #define FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_Law_Controller_h_18_INCLASS_NO_PURE_DECLS \

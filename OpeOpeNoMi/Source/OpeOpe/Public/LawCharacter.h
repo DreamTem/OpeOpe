@@ -13,6 +13,9 @@ class OPEOPE_API ALawCharacter : public ACharacter
 
 public:
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	USoundBase* TeleportCue;
+
 	ALawCharacter();
 
 protected:
@@ -26,6 +29,4 @@ protected:
 public:	
 
 	void Teleport(FVector Location);
-
-	void Shambles(AActor* Target);
 };

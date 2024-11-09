@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpeOpeModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3786437e563e31818d77131b923b598278c600c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+289e5d45b96d1b7529909e0154d4e8e5d1d5dad3")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpeOpeModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpeOpeModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
