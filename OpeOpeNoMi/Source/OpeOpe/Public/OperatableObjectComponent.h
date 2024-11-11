@@ -28,11 +28,8 @@ public:
 
 	void ThrowObject(FVector Direction);
 
+	bool IsRotating;
+
 private:
 	AActor* Owner;
-	
-	FTimerHandle RotateTimer;
-
-	UFUNCTION()
-	void RotateActor();
 };

@@ -30,7 +30,26 @@ void UOperatableObjectComponent::TickComponent(float DeltaTime, ELevelTick TickT
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+
+	//randomly rotating object around
+	if (IsRotating)
+	{
+		FRotator Rot = Owner->GetActorRotation();
+
+		int RollMultiplier = 1;
+		int PitchMultiplier = 1;
+		int YawMultiplier = 1;
+
+		if (abs(Rot.Roll) >= 90) RollMultiplier *= -1;
+		if (abs(Rot.Pitch) >= 90) PitchMultiplier *= -1;
+		if (abs(Rot.Yaw) >= 90) YawMultiplier *= -1;
+
+		Rot.Add(FMath::RandRange(1, 2) * RollMultiplier,
+			FMath::RandRange(1, 2) * PitchMultiplier,
+			FMath::RandRange(1, 2) * YawMultiplier);
+
+		Owner->SetActorRotation(Rot);
+	}
 }
 
 void UOperatableObjectComponent::LeviateObject()
@@ -45,20 +64,17 @@ void UOperatableObjectComponent::LeviateObject()
 	Owner->GetComponentByClass<UStaticMeshComponent>()->SetSimulatePhysics(false);
 
 	//make levitated object rotate till it is thrown
-	FTimerHandle Timer;
-
-	GetWorld()->GetTimerManager().SetTimer(Timer, this, &UOperatableObjectComponent::RotateActor, 0.01f, true);
-	RotateTimer = Timer;
+	IsRotating = true;
 }
 
 //throw this object towards some direction
 void UOperatableObjectComponent::ThrowObject(FVector Direction)
 {
-	//unfreezing object and unbinding throw action
+	//unfreezing object and stop rotating
 	UStaticMeshComponent* MeshComponent = Owner->GetComponentByClass<UStaticMeshComponent>();
 	MeshComponent->SetSimulatePhysics(true);
 
-	GetWorld()->GetTimerManager().ClearTimer(RotateTimer);
+	IsRotating = false;
 
 	//throwing object in cursor's direction
 	FVector ImpulseVector = Direction - Owner->GetActorLocation();
@@ -69,25 +85,3 @@ void UOperatableObjectComponent::ThrowObject(FVector Direction)
 
 	MeshComponent->AddImpulse(ImpulseVector * 100000);
 }
-
-//randomly rotating object around
-void UOperatableObjectComponent::RotateActor()
-{
-	FRotator Rot = Owner->GetActorRotation();
-
-	int RollMultiplier = 1;
-	int PitchMultiplier = 1;
-	int YawMultiplier = 1;
-
-	if (abs(Rot.Roll) >= 90) RollMultiplier *= -1;
-	if (abs(Rot.Pitch) >= 90) PitchMultiplier *= -1;
-	if (abs(Rot.Yaw) >= 90) YawMultiplier *= -1;
-
-	Rot.Add(FMath::RandRange(1, 2) * RollMultiplier,
-		FMath::RandRange(1, 2) * PitchMultiplier,
-		FMath::RandRange(1, 2) * YawMultiplier);
-
-
-	Owner->SetActorRotation(Rot);
-}
-

@@ -14,10 +14,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OPEOPE_OperatableObjectComponent_generated_h
 
-#define FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_OperatableObjectComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execRotateActor);
-
-
 #define FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_OperatableObjectComponent_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUOperatableObjectComponent(); \
@@ -43,7 +39,6 @@ public: \
 #define FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_OperatableObjectComponent_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_OperatableObjectComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_OperatableObjectComponent_h_13_INCLASS_NO_PURE_DECLS \
 	FID_Users_PivGravcya_OpeOpe_OpeOpeNoMi_Source_OpeOpe_Public_OperatableObjectComponent_h_13_ENHANCED_CONSTRUCTORS \
 private: \
